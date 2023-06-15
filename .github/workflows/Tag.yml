@@ -22,5 +22,6 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event"
       - uses: actions/checkout@v3
       
+      # Add info on log
       - name: Show Git Log
         run:  git log --oneline
